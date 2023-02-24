@@ -1,0 +1,147 @@
+.review-order {
+    margin-bottom: 447px;
+    @include for-mobile {
+      margin-bottom: 47px;
+    }
+  }
+  ::v-deep .sf-heading__title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1d1f22;
+  }
+  .review-order .title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1d1f22;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #7ba393;
+  }
+  
+  .orders .order {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    padding: 17px 7px 7px 0px;
+    border-bottom: 1px solid #f1f2f3;
+  }
+  
+  .orders .order:hover {
+    box-shadow: 0px 4px 11px rgba(29, 31, 34, 0.1);
+  }
+  
+  .image-container img {
+    width: 100%;
+  }
+  
+  .subtotal p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #43464e;
+  }
+  
+  .shipping p , .gift p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #43464e;
+  }
+  
+  .total-price-wrap .price {
+    color: #1d1f22;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .total-price .total {
+    color: #1d1f22;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  ::v-deep .sf-price__old {
+    color: var(--_c-greenmind-dark-grey-accent) !important;
+    font-size: 20px;
+    @include for-mobile {
+      font-size: 18px;
+      margin: 0;
+    }
+  }
+
+  .fixed-discount{
+    color: var(--_c-greenmind-dark-grey-accent) !important;
+    font-size: 15px;
+  }
+  .badge-discount {
+    display: flex;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 60%;
+    bottom: 110px;
+    color: var(--_c-greenmind-pine-primary-dark-green);
+    background-color: var(--_c-greenmind-primary-yellow);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    span {
+      width: 100%;
+      align-self: center;
+    }
+  
+  }
+  .subtotal,
+  .shipping,
+  .total-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .subtotal {
+    padding-top: 26px;
+    padding-bottom: 28px;
+  }
+  
+  .shipping {
+    padding-bottom: 18px;
+    border-bottom: 2px solid #7ba393;
+  }
+  
+  .total-price {
+    padding-top: 16px;
+    padding-bottom: 20px;
+  }
+  
+  .checkbox-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .checkbox-wrap .label {
+    // padding-left: 8px;
+  }
+  
+  .checkbox-wrap a {
+    text-decoration: underline;
+  }
+  
+  .payment-btn {
+    font-size: 14px;
+    background: #32463d;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 100px;
+    font-family: var(--font-family--primary);
+    width: 100%;
+    padding-top: 20px;
+    @include for-desktop {
+      max-width: 224px;
+    }
+  }
+  .submit-button {
+    @include for-mobile {
+      padding-bottom: 20px;
+    }
+  }

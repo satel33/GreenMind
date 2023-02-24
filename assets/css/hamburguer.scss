@@ -1,0 +1,54 @@
+.sf-button_hamburguer_item {
+    background: none;
+    color: var(--_c-greenmind-primary-black);
+    justify-content: left;
+    font-family: var(--font-family--primary);
+    padding-left: 12%;
+    --button-text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    padding-top: 2%;
+    @include for-mobile {
+        font-size: 16px;
+        color: var(--_c-greenmind-secondary-black);
+    }
+}
+.sf-button_hamburguer_item:hover {
+    --button-box-shadow-opacity: 0;
+}
+::v-deep .sf-icon_hamburger_item.sf-icon {
+    position: absolute !important;
+    left: 0 !important;
+    @include for-mobile {
+        --icon-color: var(--_c-greenmind-secondary-black);
+    }
+    
+}
+
+::v-deep .header-links,  ::v-deep .sf-menu-item__label {
+    font-family: var(--font-family--primary);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+::v-deep .sf-bar .smartphone-only {
+    display: none;
+}
+
+::v-deep .sf-mega-menu {
+    height: auto;
+}
+
+::v-deep .sf-sidebar__content {
+    padding: 0
+}
+
+::v-deep .sf-bar.sf-mega-menu__bar {
+    background-color: var(--_c-greenmind-light-grey-accent);
+}
+
+::v-deep .sf-bar__title {
+    font-family: var(--font-family--primary);
+}

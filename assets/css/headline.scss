@@ -1,0 +1,83 @@
+.headline1,
+.headline2,
+.headline3,
+.headline4,
+.headline5,
+.headline6,
+.headline7 {
+  font-weight: 800;
+  font-family: "Centra No2" !important;
+}
+.headline1 {
+  font-size: 56px;
+  line-height: 66px;
+}
+.headline2 {
+  font-size: 48px;
+  line-height: 58px;
+}
+.headline3 {
+  font-size: 42px;
+  line-height: 66px;
+}
+.headline4 {
+  font-size: 36px;
+  line-height: 46px;
+}
+.headline5 {
+  font-size: 28px;
+  line-height: 38px;
+}
+.headline6 {
+  font-size: 24px;
+  line-height: 34px;
+}
+.headline7 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media (max-width: 768px) {
+  .headline1 {
+    font-size: 36px;
+    line-height: 56px;
+  }
+  .headline2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .headline3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .headline4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .headline5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .headline1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .headline2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .headline3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .headline4 {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .headline5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

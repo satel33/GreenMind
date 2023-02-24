@@ -1,0 +1,133 @@
+.title {
+    margin: var(--spacer-xl) 0 var(--spacer-base) 0;
+    font-family: var(--font-family--primary);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+ 
+  .payment-page .expire-wrap .select-wrap {
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-page .form-wrap .sf-input input {
+    padding-left: 10px;
+  }
+  
+  .cvc-code-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .checkbox-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .checkbox-wrap .general_wrapper {
+    display: none;
+  }
+  
+  ::v-deep .confirm-btn {
+    background: #32463d;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 14px;
+    padding-top: 18px;
+    font-weight: 500;
+    width: 100%;
+    @include for-desktop {
+      max-width: 218px;
+    }
+  }
+ 
+  /* Customize the label (the container) */
+  .container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #5ece7b;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+  }
+  
+  .payment-method .method {
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-method {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border-top: 2px solid #f1f2f3;
+    border-bottom: 2px solid #f1f2f3;
+    margin-bottom: 40px;
+  }
+  .submit-button {
+    @include for-mobile {
+      padding-bottom: 20px;
+    }
+  }

@@ -1,0 +1,47 @@
+
+  .shipping {
+    &__label {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__description {
+      --radio-description-margin: 0;
+      --radio-description-font-size: var(--font-xs);
+    }
+  }
+  .title {
+    margin: var(--spacer-xl) 0 var(--spacer-base) 0;
+  }
+  
+  ::v-deep .first-name-last-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  ::v-deep .sf-heading__title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1d1f22;
+  }
+  
+  .revieworder_button {
+    font-size: 14px;
+    background: #32463d;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 100px;
+    font-family: var(--font-family--primary);
+    width: 100%;
+    padding-top: 20px;
+    @include for-desktop {
+      margin-bottom: 185px;
+      max-width: 267px;
+    }
+  }
+  .submit-button {
+    @include for-mobile {
+      padding-bottom: 20px;
+    }
+  }

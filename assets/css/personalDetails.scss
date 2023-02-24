@@ -1,0 +1,122 @@
+
+  .title {
+    margin: var(--spacer-xl) 0 var(--spacer-base) 0;
+  }
+  
+  ::v-deep .sf-input__label {
+    font-size: 18px;
+    font-weight: 300;
+    color: #43464e;
+      font-family: var(--font-family--primary);
+
+  }
+  
+  ::v-deep .sf-heading__title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1d1f22;
+  }
+  
+  ::v-deep .form__element--half-even {
+    padding-left: 20px;
+  }
+  
+  ::v-deep .login-btn {
+    font-size: 14px;
+    background: #32463d;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 100px;
+    font-family: var(--font-family--primary);
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    @include for-desktop {
+      max-width: 296px;
+    }
+    @include for-mobile {
+      width: 100%;
+    }
+  }
+  
+  .submit-button {
+    @include for-mobile {
+      padding-bottom: 20px;
+    }
+  }
+  
+  ::v-deep .shipping-btn {
+    font-size: 14px;
+    background: #32463d;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 100px;
+    font-family: var(--font-family--primary);
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 20px;
+    @include for-desktop {
+      max-width: 223px;
+    }
+  }
+  
+  ::v-deep .button-wrap p {
+    color: #43464e;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  ::v-deep .email-input {
+    margin-bottom: 0;
+  }
+  
+  ::v-deep .checkbox-wrap {
+    display: flex;
+    align-items: center;
+  }
+  
+  ::v-deep .perks-wrap .perk {
+    display: flex;
+    align-items: center;
+    @include for-desktop {
+      width: 33%;
+    }
+  }
+  
+  ::v-deep .perks {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 68px;
+    @include for-mobile {
+      display: block;
+      margin-bottom: 30px;
+    }
+  }
+  
+  ::v-deep .perk .label {
+    font-size: 18px;
+    color: #72757e;
+    font-weight: 400;
+    padding-left: 8px;
+    @include for-mobile {
+      br {
+        display: none;
+      }
+    }
+  }
+  
+  ::v-deep .perk-favourite {
+    @include for-desktop {
+      display: none !important;
+    }
+  }
+  
+  ::v-deep .checkbox-button-wrap {
+    margin-bottom: 86px;
+    @include for-mobile {
+      margin-bottom: 40px;
+    }
+  }

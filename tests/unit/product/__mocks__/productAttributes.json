@@ -1,0 +1,92 @@
+[
+    {
+      "id": 23440,
+      "name": "New",
+      "displayType": "select",
+      "attribute": {
+        "id": 1,
+        "name": "Grade"
+      }
+    },
+    {
+      "id": 23443,
+      "name": "Used - Okay",
+      "displayType": "select",
+      "attribute": {
+        "id": 1,
+        "name": "Grade"
+      }
+    },
+    {
+      "id": 23444,
+      "name": "Used - Worn",
+      "displayType": "select",
+      "attribute": {
+        "id": 1,
+        "name": "Grade"
+      }
+    },
+    {
+      "id": 23445,
+      "name": "Bad / Broken",
+      "displayType": "select",
+      "attribute": {
+        "id": 1,
+        "name": "Grade"
+      }
+    },
+    {
+      "id": 23932,
+      "name": "128 GB",
+      "displayType": "radio",
+      "attribute": {
+        "id": 2,
+        "name": "Storage"
+      }
+    },
+    {
+      "id": 23939,
+      "name": "(PRODUCT)RED",
+      "displayType": "color",
+      "attribute": {
+        "id": 3,
+        "name": "Color"
+      }
+    },
+    {
+      "id": 23937,
+      "name": "Blue",
+      "displayType": "color",
+      "attribute": {
+        "id": 3,
+        "name": "Color"
+      }
+    },
+    {
+      "id": 23938,
+      "name": "Pink",
+      "displayType": "color",
+      "attribute": {
+        "id": 3,
+        "name": "Color"
+      }
+    },
+    {
+      "id": 23936,
+      "name": "Midnight",
+      "displayType": "color",
+      "attribute": {
+        "id": 3,
+        "name": "Color"
+      }
+    },
+    {
+      "id": 23935,
+      "name": "Starlight",
+      "displayType": "color",
+      "attribute": {
+        "id": 3,
+        "name": "Color"
+      }
+    }
+  ]

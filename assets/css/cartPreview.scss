@@ -1,0 +1,119 @@
+.highlighted {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--c-light);
+    padding: 0 var(--spacer-xl) 0;
+    &:last-child {
+      padding-bottom: var(--spacer-xl);
+    }
+
+    &__mobile {
+      height: 140px;
+      padding: 20px 20px 0px 20px;
+      .title {
+        color: black;
+      }
+      ::v-deep .lds-ring div {
+        border-radius: 50% !important;
+      }
+    }
+  }
+
+  .total-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacer-xl);
+  }
+  .property {
+    margin-bottom: var(--spacer-base);
+  }
+  .property-total {
+    margin-top: var(--spacer-xl);
+    padding-top: var(--spacer-lg);
+    font-size: var(--font-size-xl);
+    border-top: var(--c-white) 1px solid;
+    --property-name-font-weight: var(--font-weight--semibold);
+    --property-name-color: var(--c-text);
+  }
+  
+  .characteristic {
+    &:not(:last-child) {
+      margin-bottom: var(--spacer-lg);
+    }
+   
+  }
+  .promo-added {
+    width: 33px !important;
+  }
+  .promo-added .sf-icon{
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .promo-code {
+    color: var(--_c-greenmind-pine-primary-dark-green);
+    //height: 65px;
+    &__button {
+      width: 100px;
+      --button-height: var(--spacer-lg);
+      position: relative;
+      top: -58px;
+      left: 223px;
+      padding: 8px
+   
+    }
+    &__input {
+      --input-background: var(--c-white);
+      flex: 1;
+      border-radius: 100px !important;
+    }
+    position: relative;
+  }
+  @media (max-width: 1024px) {
+    .promo-code {
+      &__button {
+        position: relative;
+        top: -59px;
+        left: 100%;
+        margin-left: -105px;
+        height: 33px;
+      } 
+    }
+  }
+  
+  
+  ::v-deep .promo-code input {
+    border-radius: 100px;
+    padding-top: 15px;
+    padding-bottom: 11px;
+    padding-left: 15px;
+  }
+  
+  ::v-deep .promo-code .sf-input {
+    &__label {
+      font-weight: 400;
+      font-size: 16px;
+      color: #43464e;
+      font-family: var(--font-family--primary);
+      padding-left: 22px;
+    }
+    
+    &__wrapper {
+      height: 40px;
+    }
+  }
+  
+  .discounted {
+    &::v-deep .sf-property__value {
+      color: var(--c-danger);
+      text-decoration: line-through;
+    }
+  }
+  
+  .special-price {
+    justify-content: flex-end;
+  
+    &::v-deep .sf-property__name {
+      display: none;
+    }
+  }

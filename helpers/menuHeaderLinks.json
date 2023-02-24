@@ -1,0 +1,40 @@
+{
+    "iphones":[
+        { "title": "All iPhones", "link": "/telefoner/iphones"},
+        { "title": "iPhone 14 Series", "link": "/telefoner/iphones/iphone-14"},
+        { "title": "iPhone 13 Series", "link": "/telefoner/iphones/iphone-13"},
+        { "title": "iPhone 12 Series", "link": "/telefoner/iphones/iphone-12"},
+        { "title": "iPhone 11 Series", "link": "/telefoner/iphones/iphone-11"},
+        { "title": "iPhone Xs", "link": "/telefoner/iphones/iphone-xs"},
+        { "title": "iPhone X", "link": "/telefoner/iphones/iphone-x"},
+        { "title": "iPhone 8", "link": "/telefoner/iphones/iphone-8"},
+        { "title": "iPhone Accessories", "link": "/tilbehoer/iphone-tilbehoer"}
+    ],
+    "smartphones": [
+        { "title": "All Smartphones", "link": "/telefoner/smartphones"},
+        { "title": "Samsung Galaxy", "link": "/telefoner/smartphones/samsung-galaxy"},
+        { "title": "Huawei", "link": "/telefoner/smartphones/huawei"},
+        { "title": "OnePlus", "link": "/telefoner/smartphones/oneplus"},
+        { "title": "Sony", "link": "/telefoner/smartphones/sony"},
+        { "title": "Motorola", "link": "/telefoner/smartphones/motorola"},
+        { "title": "Google Pixel", "link": "/telefoner/smartphones/google-pixel"},
+        { "title": "Smartphone Accessories", "link": "/telefoner/smartphones/smartphone-tilbehoer"}
+    ],
+    "tablets": [
+        { "title": "Apple iPads", "link": "/tablets/ipads"},
+        { "title": "Android Tablets", "link": "/tablets/android"},
+        { "title": "All Tablets", "link": "/tablets"},
+        { "title": "Tablet Accessories", "link": "/tablet-tilbehoer"}
+    ],
+    "computers": [
+        { "title": "Apple MacBooks", "link": "/computere/baerbare/apple-macbooks"},
+        { "title": "Apple Desktops", "link": "/computere/apple-stationaere"},
+        { "title": "Windows Laptops", "link": "/computere/baerbare/windows-baerbare"},
+        { "title": "Windows Desktops", "link": "/computere/stationaere/windows-stationaere"}
+    ],
+    "accessories": [
+        { "title": "Smartwatches", "link": "/smartwatches"},
+        { "title": "TV & Sound", "link": "/tv-og-lyd"},
+        { "title": "Consoles", "link": "/konsoller"}
+    ]
+}

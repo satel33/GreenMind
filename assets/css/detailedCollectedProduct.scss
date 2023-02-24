@@ -1,0 +1,105 @@
+
+::v-deep .sf-collected-product {
+    min-width: 370px;
+}
+
+::v-deep .product-title {
+    color: var(--_c-greenmind-primary-grey);
+    font-size: 18px !important;
+    margin-right: 0 !important;
+    font-weight: 400 !important ;
+    line-height: 24px !important;
+}
+
+
+  ::v-deep .sf-collected-product__actions {
+    display: contents;
+  }
+  ::v-deep .description-wrap {
+    margin-left: 0 !important;
+  }
+  .custom-product-title {
+    font-size: 26px;
+    line-height: 29px;
+    font-weight: 500;
+    color: var(--_c-greenmind-primary-black);
+  }
+  .custom-subtitle, .custom-stand {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--_c-greenmind-primary-grey);
+  }
+  
+  .custom-aquisition {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--_c-greenmind-secondary-black);
+  }
+  
+  ::v-deep .sf-checkbox__checkmark {
+    width: 35px !important;
+    height: 24px !important;
+    margin-right: 3% !important;
+  }
+  ::v-deep .price {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: var(--_c-greenmind-fern-primary-medium-green) !important;
+    position: inherit !important;
+    line-height: 20px !important;
+  }
+  ::v-deep .general_wrapper {
+    display: flex;
+    width: 125%;
+  }
+  .green-collected-product__price {
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+    font-family: var(--font-family--primary);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--_c-greenmind-primary-black);
+  }
+  ::v-deep .sf-collected-product__configuration {
+    display: none;
+  }
+  ::v-deep .sf-image {
+    height: 100%;
+  }
+  ::v-deep .sf-collected-product__details {
+    flex: 2;
+  }
+  ::v-deep .sf-collected-product__title-wraper {
+    transform: translate(-130%, 0%);
+    width: 25%;
+  }
+  .green-collected-product__checkbox-title {
+    font-size: 18px;
+    color: var(--_c-greenmind-primary-black);
+    font-weight: 400;
+  }
+  ::v-deep .img-description-wrap {
+    padding-left: 0% !important;
+  }
+  ::v-deep .collected_product_checkbox_wrapper {
+    transform: translate(0%, -50%);
+  }
+  .custom-edit-remove-text {
+    cursor: pointer;
+    font-family: var(--font-family--primary);
+    color: var(--_c-greenmind-primary-black);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .custom-edit-remove-text:hover {
+    color: var(--_c-greenmind-primary-grey);
+  }
+  .custom-price {
+     font-weight: 500; 
+     font-size: 26px;
+     line-height: 29px;
+  }

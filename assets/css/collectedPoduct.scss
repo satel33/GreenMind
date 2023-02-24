@@ -1,0 +1,118 @@
+
+::v-deep .description-wrap {
+  margin-left: 0 !important;
+  width: 100%;
+}
+::v-deep .product-title {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  margin-right: 20px !important;
+}
+::v-deep .sf-checkbox__checkmark {
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 2% !important;
+}
+::v-deep .price {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  color: var(--_c-greenmind-fern-primary-medium-green) !important;
+  position: inherit !important;
+}
+::v-deep .general_wrapper {
+  display: flex;
+  width: 100%;
+}
+
+::v-deep .sf-collected-product__remove.sf-collected-product__remove--text {
+  display: none;
+}
+
+::v-deep .sf-collected-product__remove{
+  @include for-mobile {
+    display: flex;
+  }
+  
+}
+
+.custom-product-title {
+  @include for-mobile {
+    margin-bottom: 7px;
+    width: 60%;
+  }
+  @media (max-width: 360px) {
+    width: 58%;
+  }
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--_c-greenmind-primary-black);
+}
+.custom-subtitle, .custom-stand {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--_c-greenmind-primary-grey);
+}
+
+.custom-aquisition {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--_c-greenmind-secondary-black);
+}
+
+.green-collected-product__price {
+  position: absolute;
+  right: 12px;
+  bottom: 0;
+  font-family: var(--font-family--primary);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--_c-greenmind-primary-black);
+}
+
+.checkbox-info-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox-info-wrap .info {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-info-wrap .product-title {
+  padding-left: 8px;
+  padding-top: 3px;
+}
+
+.checkbox-info-wrap .sf-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::v-deep .general_wrapper .img-description-wrap {
+  padding-left: 8px;
+  width: 100%;
+}
+
+::v-deep .sf-checkbox__checkmark.is-active {
+  width: 16px !important;
+  border: none;
+}
+
+.collected-product {
+  min-height: 290px;
+}
+
+.gift-coupon {
+  height: 40px !important;
+  min-height: 0 !important;
+}
+
+// ::v-deep .sf-collected-product__quantity-wrapper {
+//   display: none;
+// }

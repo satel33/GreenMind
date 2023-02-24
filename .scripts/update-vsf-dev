@@ -1,0 +1,9 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+DAEMON_NAME1="vsf-1"
+
+sudo su - ${DAEMON_NAME1} -s /bin/bash -c "cd vsf && git fetch && git reset --hard @{u} &&  git clean -f -d && git submodule foreach --recursive git reset --hard && git submodule update --init --recursive"
+sudo su - ${DAEMON_NAME1} -s /bin/bash -c "cd vsf && yarn --silent && export NODE_ENV=production && yarn build --quiet --no-lock"
+sudo systemctl reload ${DAEMON_NAME1}-server.service
+
+exit $?

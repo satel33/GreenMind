@@ -1,0 +1,126 @@
+.checkbox-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    @include for-mobile {
+      margin-bottom: 14px;
+      margin-top: 16px;
+      justify-content: center;
+    }
+  }
+  
+  .checkbox-wrap p {
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .store-distance {
+    color: var(--_c-greenmind-fern-primary-medium-green);
+  }
+  .sf-modal {
+    &__container {
+      @include for-desktop {
+        width: 80% !important;
+      }
+    }
+    &__bar {
+      font-size: 26px;
+      font-weight: 500;
+    }
+  }
+  .stores-list-header {
+    border-bottom: 2px solid var(--_c-greenmind-fern-primary-medium-green);
+  }
+  
+  .pickup-store {
+    @include for-mobile {
+      width: 100% !important;
+      margin-top: 24px;
+    }
+  }
+  .indi-product {
+    border-bottom: 1px solid var(--c-light);
+    padding-top: 1rem;
+    width: 48%;
+    @include for-mobile {
+      width: 100%;
+    }
+    .stores-data {
+      @include for-mobile {
+        display: block !important;
+      }
+      .contact-number {
+        margin-top: 1.5rem;
+        @include for-mobile {
+          margin-top: 0.5rem;
+        }
+      }
+      .contact-email {
+        padding-bottom: 0.25rem;
+        @include for-mobile {
+          padding-bottom: 0;
+        }
+      }
+      .store-position {
+        font-weight: 400;
+        @include for-mobile {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+    }
+    .pickup-store {
+      @include for-mobile {
+        width: 100%;
+      }
+    }
+  }
+  .sf-bar {
+    background-color: white;
+  }
+  .sf-modal__bar {
+    margin-top: 37px;
+  }
+  .store-search-bar {
+    width: 400px;
+    margin-right: 35px;
+    @include for-mobile {
+      margin-right: 0;
+      width: 100%;
+    }
+    .sf-input__wrapper {
+      flex-direction: row-reverse;
+      .sf-input__icon {
+        top: 68%;
+        right: -20px;
+      }
+      & input {
+        font-size: 20px;
+        font-family: "century-gothic-bold", sans-serif;
+        padding-left: 24px;
+        line-height: 10px;
+      }
+    }
+  }
+  .store-modal {
+    .sf-modal {
+      &__container {
+        z-index: 100;
+        @include for-desktop {
+          width: 90% !important;
+          height: auto !important;
+          min-height: 703px;
+        }
+        @include for-mobile {
+          padding-top: 20px;
+        }
+      }
+      &__content {
+        @include for-desktop {
+          padding: 40px;
+        }
+      }
+    }
+  }

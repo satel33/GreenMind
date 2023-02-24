@@ -1,0 +1,12 @@
+
+.div-newsletter {
+  background-color: var(--_c-greenmind-primary-pink);
+  color: var(--_c-greenmind-pine-primary-dark-green);
+  font-size: 18px;
+  text-align: center;
+}
+
+::v-deep .sf-modal__container {
+  width: 70%;
+  height: 70%;
+}

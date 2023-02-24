@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
+    ],
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": false,
+    "noEmit": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    },
+    "types": [
+      "@types/node",
+      "@types/jest",
+      "@nuxt/types",
+      "@nuxtjs/i18n",
+      "@nuxtjs/device",
+      "@nuxt/image",
+      "cookie-universal-nuxt/types",
+      "nuxt-breakpoints/types",
+      "@unlighthouse/nuxt"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

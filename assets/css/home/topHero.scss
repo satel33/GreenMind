@@ -1,0 +1,85 @@
+::v-deep .glide__slides, ::v-deep .glide__track{
+  @include for-mobile {
+    overflow: visible !important;
+  }
+
+}
+::v-deep .sf-image--wrapper {
+  bottom: 30px;
+  left: 54%;
+  position: absolute;
+  & img{
+    z-index: 10;
+    position: relative;
+    object-fit: contain;
+  }
+}
+::v-deep .sf-hero__bullets {
+  @include for-mobile {
+    display: none;;
+  }
+}
+
+::v-deep .nuxt-link-active {
+  width: 100%;
+}
+@media (min-width: 1024px) {
+
+  ::v-deep .top-hero-item {
+    object-fit: contain;
+    background-position: center;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 250px;
+    height: auto;
+    margin-bottom: 3%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .top-hero {
+      max-height: 16rem;
+    }
+
+    ::v-deep .top-hero-item {
+      background-position-y: 10px;
+      background-size: contain;
+      border-radius: 10px;
+      max-width: 100%;
+      width: auto\9;
+      margin-bottom: 2%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px){
+  .top-hero {
+    max-height: 11.5rem;
+  }
+  ::v-deep .top-hero-item {
+    background-position-y: 13px;
+    background-position-y: 10px;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 576px) {
+  .top-hero {
+    max-height: 8.5rem;
+  }
+  ::v-deep .top-hero-item {
+    background-position-y: 13px;
+    background-position-y: 10px;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 400px) {
+  .top-hero {
+    max-height: 6.5rem;
+  }
+  ::v-deep .top-hero-item {
+    background-position-y: 13px;
+    background-position-y: 10px;
+    background-size: contain;
+  }
+}

@@ -1,0 +1,14 @@
+stages:
+  - development
+
+development:
+  stage: development
+  script:
+    - ./.scripts/update-vsf-dev
+  environment:
+    name: development
+    url: https://vue-dev.greenmind.space/
+  only:
+    - dev
+  tags:
+    - vsf

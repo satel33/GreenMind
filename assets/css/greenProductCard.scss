@@ -1,0 +1,114 @@
+@media (min-width: 1024px) {
+    .sf-product-card {
+      --product-card-max-width: 18.5rem;
+    }
+  }
+  ::v-deep .sf-image {
+    left: 7.81%;
+    right: 7.81%;
+    top: 4.06%;
+    bottom: 29.82%;
+  }
+  
+  ::v-deep .sf-product-card__badge.sf-badge {
+    left: 66%;
+    background-color: var(--_c-greenmind-primary-yellow);
+    color: var(--_c-greenmind-pine-primary-dark-green);
+    height: 86px;
+    width: 86px;
+    font-size: 24px;
+    padding: 33px 0px;
+    line-height: 18px;
+    font-weight: 600;
+    border-radius: 50%;
+    @include for-mobile{
+      left: 53%;
+      height: 62px;
+      width: 63px;
+      font-size: 20px;
+      line-height: 16px;
+      padding: 24px 0;
+    }
+  }
+  
+  .title-flex {
+    padding-top: 11.52px;
+    @include for-mobile {
+      padding-top: 0;
+    }
+  }
+  
+  .price-flex {
+    margin-top: 18.29px;
+    @include for-mobile {
+     margin-top: 0; 
+    }
+  }
+  
+  .sf-product-card {
+    border-radius: 14px;
+    width: 295px;
+    height: 568.11px;
+    text-align-last: center;
+  }
+  .sf-product-card::after {
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  
+  .green-product-card__title {
+    font-family: var(--font-family--primary);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: var(--line-height--primary);
+    color: var(--_c-greenmind-black-primary);
+    @include for-mobile {
+      font-size: 18px;
+    }
+  }
+  
+  .green-product-card__description {
+    font-family: var(--font-family--primary);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    min-height: 26px;
+    line-height: var(--line-height--primary);
+    color: var(--_c-greenmind-primary-grey);
+    padding-top: 2.3px;
+    @include for-mobile {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
+  
+  .green-product-card__price {
+    font-family: var(--font-family--primary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: var(--line-height--primary);
+    @include for-mobile {
+      font-size: 18px;
+    }
+  }
+  
+  .green-product-card__fra {
+    margin-right: 10px;
+  }
+  
+  .green-product-card__fra {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: var(--line-height--primary);
+    @include for-mobile {
+      font-size: 14px;
+    }
+  }
+
+  .tag_bottom_products {
+    position: absolute;
+    bottom: 0px;
+  }

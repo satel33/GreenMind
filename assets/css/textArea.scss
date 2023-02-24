@@ -1,0 +1,76 @@
+.title1,
+.title2,
+.title3,
+.title2-teaser,
+.title3-teaser,
+.text1,
+.text2,
+.text3,
+.cropped1,
+.cropped2,
+.caption-default,
+.caption-large {
+  font-family: "Centra No2" !important;
+}
+.title1 {
+  font-size: 32px;
+  line-height: 38px;
+}
+.title2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+.title2-teaser {
+  font-size: 20px;
+  line-height: 28px;
+}
+.title3 {
+  font-size: 18px;
+  line-height: 22px;
+}
+.title3-teaser {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.text1 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.cropped1 {
+  font-size: 16px;
+  line-height: 16px;
+}
+.text2 {
+  font-size: 14px;
+  line-height: 22px;
+}
+.cropped2 {
+  font-size: 14px;
+  line-height: 14px;
+}
+.text3 {
+  font-size: 12px;
+  line-height: 12px;
+}
+.caption-default {
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+.caption-large {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .title1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .title2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
