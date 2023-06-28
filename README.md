@@ -5,12 +5,11 @@ Hos GreenMind finder du secondhand elektronik med 3 års garanti. Køb brugt ele
 ## How to start?
 
 ```sh
-1. git clone https://git.odoogap.com/customer-projects/greenmind
-2. yarn install
-3. yarn build # (required) GreenMind project need build to fetch dinamic routes from ODOO
-4. yarn dev
-5. You can access with http://localhost:3000
-6. Or yarn dev-default
+1. yarn install
+2. yarn build # (required) GreenMind project need build to fetch dinamic routes from ODOO
+3. yarn dev
+4. You can access with http://localhost:3000
+5. Or yarn dev-default
 ```
 
 ## Api cache
